@@ -42,11 +42,17 @@ A Javascript Framework to develop SPA (Single Page Application)
 
 **Step 2**
 ```command
-npm install -g @angular/cli
-ng new my-dream-app
-cd my-dream-app
+npm install -g @angular/cli@latest
+ng new my-first-app
+cd my-first-app
 ng serve
 ```
 
+* * *
+## Angular 9 new features
+- Max changes in compiler not in old angular version codes
+> 1. [x] Smaller Size
+> 2. [x] High Performance
+> 3. [x] Better Development Experience
 
 
