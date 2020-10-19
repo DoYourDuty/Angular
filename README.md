@@ -66,7 +66,7 @@ ng serve
 }
 ```
 
-**From Angular 9 it is defunct, To disable it in Angular 9**
+**From Angular 9 it is default, To disable it in Angular 9**
 ```json
 {
     "angularCompilerOptions" : {
