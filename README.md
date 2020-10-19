@@ -1,30 +1,10 @@
 # Angular and ASP .NET Core Topics
-* Project Setup
-* Basics
-* Bindings
-* Bootstrap
-* Routing
-* Using Service
-* Interaction Between Components
-* Components
-* Template Driven Forms
-* Reactive Forms
-* Inbuilt validation
-* Custom Validation
-* Pipes
-* Save Data to Local Storage
-* Observable
-* Photo Gallery
-* Lazy Loading
-* Authentication
-* Uploading Image
-* Deployment on Firebase
+* Project Setup, Basics, Bindings, Bootstrap, Routing, Using Service, Interaction Between Components, Components, Template Driven Forms, Reactive Forms, Inbuilt validation, Custom Validation, Pipes, Save Data to Local Storage, Observable, Photo Gallery, Lazy Loading, Authentication, Uploading Image, Deployment on Firebase
 
-
-# What is Angular ?
+**What is Angular ?**
 A Javascript Framework to develop SPA (Single Page Application)
 
-# Angular History and Versioning
+**Angular History and Versioning**
 - Angular JS 1.x - 2010
 - Angular 2+ - 2016
 - Angular 3 - Skipped duo to miss alignment router package version which already distributed version 3.3
@@ -76,7 +56,7 @@ ng serve
 ```
 * * *
 
-# Ivy
+**Ivy Compiler new features**
 * Smaller Size bundle. Angular 9 Compiler rewrite after Angular 4.
 * Unused code removal and generate less code for each components
 * Total Bundle Size (Version 9 Ivy vs Version 8) improvements after compile
@@ -85,3 +65,16 @@ ng serve
     * Large Aps - 25% to 40% Size improvement 
 * Faster Testing - Test recompile manually
 * Improved Build Time - 
+    * Angular 8 JIT (Just in Time) for ng build or ng serve and AoT (Ahead of Time) for ng build --prod (It may occurred lot error while build for production)
+    * Angular 9 AoT (Ahead of Time) for both ng build or ng serve and ng build --prod 
+* Improve Build Error - Stronger Type Safety while build Error will be more detailed with line and file location.
+* Better Debugging - More Tools available to debug application. 
+* Improved Styling & Binding
+* Faster Localization - Globalization multiple language support core features of Angular and angular 9 has made some changes. its making 10 times faster.
+
+**Ng Update**
+* ng update - will give more detailed information while update. For each migration you will know more about migration.
+
+**YouTube Player and Google Maps**
+**Improved Language Service Extension**
+**Typescript 3.7 Support**
