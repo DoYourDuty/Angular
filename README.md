@@ -79,6 +79,9 @@ ng serve
 # Ivy
 * Smaller Size bundle. Angular 9 Compiler rewrite after Angular 4.
 * Unused code removal and generate less code for each components
+* Total Bundle Size (Version 9 Ivy vs Version 8) improvements after compile
     * Small App - 30% Size Improvement
     * Medium Apps - 2% Size improvement
     * Large Aps - 25% to 40% Size improvement 
+* Faster Testing - Test recompile manually
+* Improved Build Time - 
