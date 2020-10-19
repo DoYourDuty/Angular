@@ -49,10 +49,29 @@ ng serve
 ```
 
 * * *
-## Angular 9 new features
+## What is new in Angular 9
 - Max changes in compiler not in old angular version codes
-> 1. [x] Smaller Size
-> 2. [x] High Performance
-> 3. [x] Better Development Experience
+- Smaller Size
+- High Performance
+- Better Development Experience
+- Ivy Compilar - new code name of angular compiler that convert Angular code to Browser understandable code
+- Before Ivy was VE (View Engine). Ivy is option in Angular 8. 
 
+**To able in Angular 8**
+```json
+{
+    "angularCompilerOptions" : {
+        "enableIvy" : true
+    }
+}
+```
+
+**From Angular 9 it is defulat, To disable it in Angular 9**
+```json
+{
+    "angularCompilerOptions" : {
+        "enableIvy" : false
+    }
+}
+```
 
