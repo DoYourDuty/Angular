@@ -92,3 +92,27 @@ yarn add tslib
 ```command
 npm install tslib --save
 ```
+
+* * *
+
+# Folder Structure and Flow of Angular Application
+* Test case and Test Configuration
+    * e2e - Folder for End to End testing and also know as Integration testing.
+    * Karma.conf.js
+    * tsconfig.spec.json
+* node_modules - All needed modules which are application depends on. It will present after execute CMD - `npm install`
+* package.json - define Depends modules details.
+    * devdependencies - Modules needed for developments.
+    * dependencies - Modules needed for Run Time.
+* package-lock.json - History and detailed view of package list.
+* .gitignore - List out folder and files which is no need push to repository. (Ignore files and folders list)
+* angular.json - CLI configuration file. Contains project specification for build and development tools provided by Angular CLI.
+    * Build - outputpath (Build location), index (Startup page), etc,. 
+* tsconfig.app.json and tsconfig.json - related to TS file location details and configuration. 
+* tslint.json - Type Script (TS) rules define in it. TS code check rules check against these rules. Get error when TS code not follow these rules.
+
+
+
+
+
+
