@@ -1,7 +1,7 @@
 # Angular and ASP .NET Core Topics
 * Project Setup, Basics, Bindings, Bootstrap, Routing, Using Service, Interaction Between Components, Components, Template Driven Forms, Reactive Forms, Inbuilt validation, Custom Validation, Pipes, Save Data to Local Storage, Observable, Photo Gallery, Lazy Loading, Authentication, Uploading Image, Deployment on Firebase
 
-**What is Angular ?**
+**What is Angular ?** <br />
 A Javascript Framework to develop SPA (Single Page Application)
 
 **Angular History and Versioning**
@@ -75,6 +75,6 @@ ng serve
 **Ng Update**
 * ng update - will give more detailed information while update. For each migration you will know more about migration.
 
-**YouTube Player and Google Maps**
-**Improved Language Service Extension**
-**Typescript 3.7 Support**
+**YouTube Player and Google Maps** <br />
+**Improved Language Service Extension** <br />
+**Typescript 3.7 Support** <br />
