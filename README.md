@@ -54,7 +54,7 @@ ng serve
 - Smaller Size
 - High Performance
 - Better Development Experience
-- Ivy Compilar - new code name of angular compiler that convert Angular code to Browser understandable code
+- Ivy Compiler - new code name of angular compiler that convert Angular code to Browser understandable code
 - Before Ivy was VE (View Engine). Ivy is option in Angular 8. 
 
 **To able in Angular 8**
@@ -66,7 +66,7 @@ ng serve
 }
 ```
 
-**From Angular 9 it is defulat, To disable it in Angular 9**
+**From Angular 9 it is defunct, To disable it in Angular 9**
 ```json
 {
     "angularCompilerOptions" : {
