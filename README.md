@@ -69,7 +69,7 @@ ng serve
     * Angular 9 AoT (Ahead of Time) for both ng build or ng serve and ng build --prod 
 * Improve Build Error - Stronger Type Safety while build Error will be more detailed with line and file location.
 * Better Debugging - More Tools available to debug application. 
-* Improved Styling & Binding
+* Improved Styling & Binding.
 * Faster Localization - Globalization multiple language support core features of Angular and angular 9 has made some changes. its making 10 times faster.
 
 **Ng Update**
@@ -78,3 +78,17 @@ ng serve
 **YouTube Player and Google Maps** <br />
 **Improved Language Service Extension** <br />
 **Typescript 3.7 Support** <br />
+
+
+# Breaking Changes in Angular 9 (When migrating from old version)
+- Angular 9 - Ivy default compiler.
+- CLI apps compile in AOT mode by default.
+- Typescript 3.4 and 3.5 no longer supported. only Typescript 3.7 onwards.
+- **tslib** is now peer dependency rather than a direct dependency. we need to it manually if needed. using
+```command
+yarn add tslib
+```
+**(or)**
+```command
+npm install tslib --save
+```
