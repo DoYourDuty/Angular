@@ -36,7 +36,7 @@ A Javascript Framework to develop SPA (Single Page Application)
 
 * * *
 
-## Getting Start
+# Getting Start
 **Step 1**
 - Install NPM - [Download](https://nodejs.org/en/)
 
@@ -49,7 +49,7 @@ ng serve
 ```
 
 * * *
-## What is new in Angular 9
+# What is new in Angular 9
 - Max changes in compiler not in old angular version codes
 - Smaller Size
 - High Performance
@@ -74,4 +74,11 @@ ng serve
     }
 }
 ```
+* * *
 
+# Ivy
+* Smaller Size bundle. Angular 9 Compiler rewrite after Angular 4.
+* Unused code removal and generate less code for each components
+    * Small App - 30% Size Improvement
+    * Medium Apps - 2% Size improvement
+    * Large Aps - 25% to 40% Size improvement 
