@@ -119,6 +119,7 @@ npm install tslib --save
 **src\app\app.component.ts** - Contains properties and function specific to app component. which can be use in html component.
 * **src\app\app.component.html** - html `View` template.
 * **src\app\app.component.css** - css `Style` 
+* **index.html** - Only page in application dynamically load various components init.
 
 
 
