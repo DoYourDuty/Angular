@@ -1,0 +1,72 @@
+[
+  {
+    "Id": 1,
+    "Type": "House",
+    "Name": "Braila House1",
+    "Price": 11000,
+    "Image": "img (1).jpg"
+  },
+  {
+    "Id": 2,
+    "Type": "House",
+    "Name": "Braila House2",
+    "Price": 12000,
+    "Image": "img (2).jpg"
+  },
+  {
+    "Id": 3,
+    "Type": "House",
+    "Name": "Braila House3",
+    "Price": 13000,
+    "Image": "img (3).jpg"
+  },
+  {
+    "Id": 4,
+    "Type": "House",
+    "Name": "Braila House4",
+    "Price": 14000,
+    "Image": "img (4).jpg"
+  },
+  {
+    "Id": 5,
+    "Type": "House",
+    "Name": "Braila House5",
+    "Price": 15000,
+    "Image": "img (5).jpg"
+  },
+  {
+    "Id": 6,
+    "Type": "House",
+    "Name": "Braila House6",
+    "Price": 16000,
+    "Image": "img (6).jpg"
+  },
+  {
+    "Id": 7,
+    "Type": "House",
+    "Name": "Braila House7",
+    "Price": 17000,
+    "Image": "img (7).jpg"
+  },
+  {
+    "Id": 8,
+    "Type": "House",
+    "Name": "Braila House8",
+    "Price": 18000,
+    "Image": "img (8).jpg"
+  },
+  {
+    "Id": 9,
+    "Type": "House",
+    "Name": "Braila House9",
+    "Price": 19000,
+    "Image": "img (9).jpg"
+  },
+  {
+    "Id": 10,
+    "Type": "House",
+    "Name": "Braila House10",
+    "Price": 20000,
+    "Image": "img (10).jpg"
+  }
+]
