@@ -9,12 +9,12 @@ import { Observable } from 'rxjs';
 export class HousingService {
   constructor(private http: HttpClient) {}
 
-  getAllProperties(): Observable<IProperty[]> {
+  getAllProperties(sellRent: number): Observable<IProperty[]> {
     return this.http.get('data/properties.json').pipe(
       map((data) => {
         const propertiesArray: Array<IProperty> = [];
         for (const id in data) {
-          if (data.hasOwnProperty(id)) {
+          if (data.hasOwnProperty(id) && data[id].SellRent == sellRent) {
             propertiesArray.push(data[id]);
           }
         }
@@ -38,7 +38,7 @@ export class HousingService {
 
           var property2: IProperty;
           for (const id in data) {
-            if (data.hasOwnProperty(id) && id == ID.toString()) {
+            if (data.hasOwnProperty(id) && id ===  ID.toString()) {
     console.log("getProperty3");
 
               property2 =  data[id];

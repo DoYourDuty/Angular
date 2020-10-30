@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http/';
 import { Routes, RouterModule } from '@angular/router';
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -15,8 +16,9 @@ import { PropertyDetailComponent } from './property/property-detail/property-det
 const appRoutes: Routes = [
   { path: '', component: PropertyListComponent },
   { path: 'add-property', component: AddPropertyComponent },
-  { path: 'rent-property', component: AddPropertyComponent },
+  { path: 'rent-property', component: PropertyListComponent },
   { path: 'property-detail/:id', component: PropertyDetailComponent },
+  { path: '**', component: PropertyListComponent }, // Not listed URL ** direct to this component
 ];
 
 @NgModule({
@@ -26,12 +28,12 @@ const appRoutes: Routes = [
     PropertyListComponent,
     NavBarComponent,
     AddPropertyComponent,
-    PropertyDetailComponent
-  ],
+    PropertyDetailComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    FormsModule,
     RouterModule.forRoot(appRoutes),
   ],
   providers: [HousingService],
