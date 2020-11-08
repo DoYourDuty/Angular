@@ -12,7 +12,13 @@ export class AddPropertyComponent implements OnInit {
   @ViewChild('Form') addPropertyFrom: NgForm;
   constructor(private route: Router) {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    // this.addPropertyFrom.controls['Name'].setValue('Default Value');
+
+    setTimeout(() => {
+      this.addPropertyFrom.controls['Name'].setValue('Default Value');
+    });
+  }
 
   onBack(): void {
     this.route.navigate(['/']);
