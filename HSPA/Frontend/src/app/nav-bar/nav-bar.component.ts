@@ -1,32 +1,27 @@
-import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
-import { AlertifyService } from './../services/alertify.service';
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+import { AlertifyService } from '../services/alertify.service';
 
 @Component({
   selector: 'app-nav-bar',
   templateUrl: './nav-bar.component.html',
-  styleUrls: ['./nav-bar.component.css'],
+  styleUrls: ['./nav-bar.component.css']
 })
 export class NavBarComponent implements OnInit {
-  loggedInUser: string;
 
-  constructor(
-    private alertifyService: AlertifyService,
-    private router: Router,
-    private dropDown: BsDropdownModule,
-  ) {}
+  loggedinUser: string;
+  constructor(private alertify: AlertifyService) { }
 
-  ngOnInit(): void {}
-
-  loggedIn(): any {
-    this.loggedInUser = localStorage.getItem('token');
-    return this.loggedInUser;
+  ngOnInit() {
   }
 
-  onLogout(): any {
-    this.alertifyService.warning('Successfully Logout');
-    this.router.navigate(['user-login']);
-    return localStorage.removeItem('token');
+  loggedin() {
+    this.loggedinUser = localStorage.getItem('token');
+    return this.loggedinUser;
   }
+
+  onLogout() {
+    localStorage.removeItem('token');
+    this.alertify.success("You are logged out !");
+  }
+
 }
